@@ -738,11 +738,15 @@ a:hover {
 }
 
 .about-mf .about-img {
-  margin-bottom: 2rem;
+  display: flex;
+  justify-content:center;
 }
 
 .about-mf .about-img img {
   margin-left: 10px;
+  height: 500px;
+  width: auto;
+
 }
 
 @media (min-width: 767px) {
@@ -837,7 +841,7 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# Projects
 --------------------------------------------------------------*/
 .work-box {
   margin-bottom: 3rem;
